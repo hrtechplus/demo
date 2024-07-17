@@ -11,18 +11,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RestController
 public class DummyController {
   
-  @RequestMapping(value = "/hi", method = RequestMethod.GET)
+  @RequestMapping(value = "/", method = RequestMethod.GET)
   String displayDefaultMessage() {
-    return "Hello Worcvcvcld!";
+    return "Hello World! 001";
   }
   
-  @RequestMapping(value = "/hio", method=RequestMethod.GET)
-  public String requestMethodName(@RequestParam String param) {
-      return "Hello thid id in HI page";
-  }
-  
+
 
   
 
 
 }
+
+
